@@ -9,7 +9,7 @@ elif not os.path.isfile(csv_filename):
 else:
     #csv file found
     total_lines = 0
-    cse_count = 0
+    cse_count = 1
     ee_count = 0
 
     with open(csv_filename, mode='r') as file:
